@@ -1,1 +1,1 @@
-lama-cleaner
+lama-cleaner==0.26.1
