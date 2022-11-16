@@ -4,7 +4,7 @@ from lama_cleaner.server import main
 
 class FakeArgs(BaseModel):
     host: str = "0.0.0.0"
-    port: int = 8080
+    port: int = 7860
     model: str = 'lama'
     hf_access_token: str = ""
     sd_disable_nsfw: bool = False
