@@ -16,6 +16,7 @@ class FakeArgs(BaseModel):
     input: str = ''
     disable_model_switch: bool = True
     debug: bool = False
+    no_half: bool = False
 
 if __name__ == "__main__":
     main(FakeArgs())
