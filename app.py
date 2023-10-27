@@ -10,6 +10,8 @@ class FakeArgs(BaseModel):
     sd_disable_nsfw: bool = False
     sd_cpu_textencoder: bool = True
     sd_controlnet: bool = False
+    sd_controlnet_method: str = "control_v11p_sd15_canny"
+    sd_local_model_path: str = ""
     sd_run_local: bool = False
     local_files_only: bool = False
     cpu_offload: bool = False
