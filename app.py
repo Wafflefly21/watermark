@@ -7,6 +7,7 @@ class FakeArgs(BaseModel):
     port: int = 7860
     model: str = 'lama'
     hf_access_token: str = ""
+    sd_enable_xformers: bool = False
     sd_disable_nsfw: bool = False
     sd_cpu_textencoder: bool = True
     sd_controlnet: bool = False
