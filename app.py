@@ -21,7 +21,7 @@ class FakeArgs(BaseModel):
     no_half: bool = False
     disable_nsfw: bool = False
     enable_xformers: bool = False
-    enable_interactive_seg: bool = True
+    enable_interactive_seg: bool = False
     interactive_seg_model: str = "vit_b"
     enable_remove_bg: bool = False
     enable_anime_seg: bool = False
