@@ -10,7 +10,6 @@ class FakeArgs(BaseModel):
     sd_disable_nsfw: bool = False
     sd_cpu_textencoder: bool = True
     sd_run_local: bool = False
-    sd_enable_xformers: bool = False
     local_files_only: bool = False
     cpu_offload: bool = False
     device: str = "cpu"
@@ -22,6 +21,15 @@ class FakeArgs(BaseModel):
     no_half: bool = False
     disable_nsfw: bool = False
     enable_xformers: bool = False
+    enable_interactive_seg: bool = True
+    interactive_seg_model: str = "vit_b"
+    enable_remove_bg: bool = False
+    enable_anime_seg: bool = False
+    enable_realesrgan: bool = False
+    enable_gfpgan: bool = False
+    gfpgan_device: str = "cpu"
+    enable_restoreformer: bool = False
+    enable_gif: bool = False
     model_dir: str = None
     output_dir: str = None
 
