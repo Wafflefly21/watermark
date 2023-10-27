@@ -27,6 +27,7 @@ class FakeArgs(BaseModel):
     enable_xformers: bool = False
     enable_interactive_seg: bool = True
     interactive_seg_model: str = "vit_b"
+    interactive_seg_device: str = "cpu"
     enable_remove_bg: bool = False
     enable_anime_seg: bool = False
     enable_realesrgan: bool = False
