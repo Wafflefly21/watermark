@@ -9,6 +9,7 @@ class FakeArgs(BaseModel):
     hf_access_token: str = ""
     sd_disable_nsfw: bool = False
     sd_cpu_textencoder: bool = True
+    sd_controlnet: bool = False
     sd_run_local: bool = False
     local_files_only: bool = False
     cpu_offload: bool = False
