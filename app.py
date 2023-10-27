@@ -30,6 +30,7 @@ class FakeArgs(BaseModel):
     gfpgan_device: str = "cpu"
     enable_restoreformer: bool = False
     enable_gif: bool = False
+    quality: int = 95
     model_dir: str = None
     output_dir: str = None
 
