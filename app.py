@@ -16,7 +16,7 @@ class FakeArgs(BaseModel):
     sd_run_local: bool = False
     local_files_only: bool = False
     cpu_offload: bool = False
-    device: str = "cpu"
+    device: str = "cuda"
     gui: bool = False
     gui_size: List[int] = [1000, 1000]
     input: str = ''
